@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+	color: white;
+}
+
+body {
+	background: rgb(0,0,5);
+}
+
+#nav {
+	font-size: 1.5rem;
+	display: flex;
+	flex-flow: row wrap;
+	max-width: 1200px;
+	justify-content: center;
+	margin: 0 auto;
+	padding: 0 auto px;
+}
+
+#nav ul {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	list-style: none;
+}
+
+#nav ul a {
+	display: block;
+	padding: 1em;
+	text-decoration: none;
+}
+	
+/*this underline wins out in the conflict and overrides the text-decoration:
+ * none above. It needs to have #nav ul to win the conflict.*/
+#nav ul a:hover {
+	text-decoration: underline;
+}
+	
