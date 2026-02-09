@@ -8,10 +8,11 @@ body {
 }
 
 #nav {
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 	display: flex;
 	flex-flow: row wrap;
 	max-width: 1200px;
+	max-height: 3em;
 	justify-content: center;
 	margin: 0 auto;
 	padding: 0 auto px;
@@ -25,8 +26,6 @@ body {
 }
 
 #nav ul a {
-	display: block;
-	padding: 1em;
 	text-decoration: none;
 }
 	
@@ -34,5 +33,13 @@ body {
  * none above. It needs to have #nav ul to win the conflict.*/
 #nav ul a:hover {
 	text-decoration: underline;
+}
+	
+.main-text-box {
+	max-width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
 }
 	
