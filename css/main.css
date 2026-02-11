@@ -1,10 +1,13 @@
 * {
 	box-sizing: border-box;
-	color: white;
+	color: #9bafbf;
 }
 
 body {
-	background: rgb(0,0,5);
+	background: #121212;
+	height: 100%;
+	display: flex;
+	flex-flow: column wrap;
 }
 
 #nav {
@@ -13,33 +16,90 @@ body {
 	flex-flow: row wrap;
 	max-width: 1200px;
 	max-height: 3em;
-	justify-content: center;
 	margin: 0 auto;
-	padding: 0 auto px;
+	justify-content: space-between;
+	align-items: center;
 }
 
 #nav ul {
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-between;
 	list-style: none;
 }
 
-#nav ul a {
+#nav a {
+	display: block;
 	text-decoration: none;
+	padding: 1em;
+	padding-top: 0em;
+	color: #96b4af
 }
 	
 /*this underline wins out in the conflict and overrides the text-decoration:
- * none above. It needs to have #nav ul to win the conflict.*/
-#nav ul a:hover {
+ * none above. It needs to have #nav to win the conflict.*/
+#nav a:hover {
 	text-decoration: underline;
+	color: #cae6df;
 }
 	
 .main-text-box {
 	max-width: 1000px;
+	width: 800px;
 	margin: 0 auto;
+	padding: 1em;
 	display: flex;
 	flex-flow: column wrap;
-	align-items: center;
+	flex-grow: 1;
+	align-items: flex-start;
 }
-	
+
+h2 {
+	margin-bottom: 0.5em;
+	padding-bottom: 0.25em;
+	border-bottom: solid;
+}
+
+p {
+	margin: 0;
+}
+
+.descriptor { 
+	width: 800px;
+	height:15%;
+	display: flex;
+	flex-flow: column wrap;
+}
+
+#posts {
+	width: 800px;
+	display: flex;
+	flex-flow: column wrap;
+}
+
+#posts div {
+	height: 1.5em;
+}
+
+#posts a {
+	text-decoration: none;
+}
+
+#posts a:hover {
+	color: #bdcfdf;
+	text-decoration: underline;
+}
+
+#footer {
+	display: flex;
+	flex-flow: column wrap;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.color-bg1 {
+	background: #161a1a;
+}	
+
+.de-margin {
+	margin: 0px;
+}
