@@ -89,12 +89,6 @@ p {
 	text-decoration: underline;
 }
 
-#footer {
-	display: flex;
-	flex-flow: column wrap;
-	max-width: 1000px;
-	margin: 0 auto;
-}
 
 .color-bg1 {
 	background: #161a1a;
@@ -103,3 +97,16 @@ p {
 .de-margin {
 	margin: 0px;
 }
+
+#footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#footer div {
+	padding: 0.5em;
+	height: 3em;
+}
+
+

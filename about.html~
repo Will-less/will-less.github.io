@@ -1,4 +1,3 @@
-
 <!DOCYPE html>
 <html>
   <head>
@@ -12,21 +11,18 @@
 		<nav id="nav">
 			<a href="index.html">Will-less</a>
 			<ul>
-				<li><a href="about.html">About Me</a></li>
+				<li><a href="projects.html">Projects</a></li>
 			</ul>
 		</nav>
 	</div>
 	<section class="main-text-box">
-		<section class = "descriptor">
-			<h2>Projects</h2>
-			<p>None notable.</p>
+		<section class="descriptor">
+			<h2>About Me</h2>
+			<p>My name is Willis, and I am currently a senior majoring in CS at Hunter College.</p>
 		</section>
 	</section>	
-	<section class = "color-bg1">
-		<footer id="footer"> 
-			<div>Willis Yu</div>
-		</footer>
-	</section>
-
+	<footer>
+		<p>Willis Yu</p>
+	</footer>
   </body>
 </html>
