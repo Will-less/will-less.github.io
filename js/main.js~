@@ -1,3 +1,0 @@
-console.log("test");
-let addNums = (n1, n2) => n1+n2;
-addNums(1,2);

@@ -65,9 +65,17 @@ p {
 
 .descriptor { 
 	width: 800px;
-	height:15%;
+	min-height:15%;
 	display: flex;
 	flex-flow: column wrap;
+}
+
+.flex-table{
+	display: flex;
+}
+
+.flex-table *{
+	padding-right: 1em;
 }
 
 #posts {
@@ -98,6 +106,10 @@ p {
 	margin: 0px;
 }
 
+.center {
+	margin: 0 auto;
+}
+
 #footer {
 	display: flex;
 	justify-content: center;
@@ -109,4 +121,11 @@ p {
 	height: 3em;
 }
 
-
+#mypic {
+	width: 300px;
+	height:300px;
+	margin: 3em auto;
+	margin-bottom: 0;
+	border-color: #161a1a;
+	border: solid;
+}
