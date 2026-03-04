@@ -78,6 +78,11 @@ p {
 	padding-right: 1em;
 }
 
+#project-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
 #posts {
 	width: 800px;
 	display: flex;
