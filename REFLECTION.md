@@ -1,3 +1,4 @@
 (for class)
-1. the html is acquired, then the css, then the js file at the end. 
-2. Github pages and docker container serve entirely different purposes. The Docker container provides an environment for testing your software on different systems without needing to use a VM. Github pages is for hosting your website. 
+1. flex-direction: row and flex-direction: column affect the direction the elements are arranged. If it is flex-direction: row, the elements arearranged as if they were in a row: they traverse the horizontal axis. Flex-dirextion: column is similar except it is vertical instead of horizontal; the objects traverse the flex-box vertically. 
+2. percentage/relative units are better than fixed pixels because pixels differ per screen. Also, fixed pixels are not adaptive and not responsive to changes like zooming in.
+3. did not use AI 
