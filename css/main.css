@@ -87,15 +87,17 @@ p {
 	grid-template-columns: repeat(3, 1fr); 
 	grid-template-rows: repeat(3,1fr);
 	margin-top: 1em;
-	column-gap: 1em;
 	align-items: start;
+	grid-gap: 1em;
 }
 
 .project-image {
-	border: 0.2em solid rgb(#1555a0);
+	border: 0.1em solid #accaca;
 	display: block;
+	filter: brightness(75%);
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
 }
-
 
 #posts {
 	width: 800px;
@@ -103,8 +105,10 @@ p {
 	flex-flow: column wrap;
 }
 
-#posts div {
+.project-title { 
+	text-align: center;
 }
+
 
 #posts a {
 	text-decoration: none;

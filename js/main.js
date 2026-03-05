@@ -9,5 +9,7 @@ if(projects) {
 
 	projectImages?.forEach((image) => {
 		image.style.width = `${bWidth/colNum}px`;
+		image.style.height = `${bWidth/colNum-30}px`;
+
 	});
 }
