@@ -1,6 +1,6 @@
 * {
 	box-sizing: border-box;
-	color: #9bafbf;
+	color: #9bafaf;
 }
 
 body {
@@ -52,6 +52,10 @@ body {
 	align-items: flex-start;
 }
 
+.main-text-box h2 {
+	color: #accaca;
+}
+
 h2 {
 	margin-bottom: 0.5em;
 	padding-bottom: 0.25em;
@@ -67,6 +71,7 @@ p {
 	min-height:15%;
 	display: flex;
 	flex-flow: column wrap;
+	margin-bottom: 1em;
 }
 
 .flex-table{
@@ -85,6 +90,12 @@ p {
 	column-gap: 1em;
 	align-items: start;
 }
+
+.project-image {
+	border: 0.2em solid rgb(#1555a0);
+	display: block;
+}
+
 
 #posts {
 	width: 800px;
