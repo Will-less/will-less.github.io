@@ -5,7 +5,6 @@
 
 body {
 	background: #121212;
-	height: 100%;
 	display: flex;
 	flex-flow: column wrap;
 }
@@ -32,7 +31,7 @@ body {
 	text-decoration: none;
 	padding: 1em;
 	padding-top: 0em;
-	color: #96b4af
+	color: #96b4af;
 }
 	
 /*this underline wins out in the conflict and overrides the text-decoration:
@@ -80,7 +79,10 @@ p {
 
 #project-grid {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: repeat(3, 1fr); 
+	column-gap: 1em;
+	row-gap: 1em;
+	align-items: center;
 }
 
 #posts {
@@ -90,7 +92,6 @@ p {
 }
 
 #posts div {
-	height: 1.5em;
 }
 
 #posts a {

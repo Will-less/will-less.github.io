@@ -1,3 +1,10 @@
-console.log("test");
-let addNums = (n1, n2) => n1+n2;
-console.log(addNums(1,2));
+const projects = document.querySelector("project-grid");
+
+if(projects) {
+	const projectImages = projects.querySelectorAll("project-image");
+
+	projectImages?.forEach((image) => {
+		console.log("test");
+	});
+}
+console.log(42);
