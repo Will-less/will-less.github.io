@@ -40,6 +40,29 @@ body {
 	text-decoration: underline;
 	color: #cae6df;
 }
+
+.dropdown .dropdown-button { 
+	position: relative;
+	background: none;
+	border: none;
+	cursor: pointer;
+	font-size: 1.25em;
+	padding-bottom: 1em;
+	display: none;
+}
+
+.dropdown .dropdown-content {
+	display: none;
+}
+
+.dropdown-content.show {
+	display:block;
+}
+
+.dropdown  {
+	position: relative;
+	display: none;
+}
 	
 .main-text-box {
 	max-width: 1000px;
@@ -192,8 +215,37 @@ p {
 		display: flex;
 		flex-flow: column wrap;
 	}
+
+	#nav a {
+		display: block;
+		text-decoration: none;
+		color: #96b4af;
+	}
+
+	#nav {
+		padding-top: 1em;
+	}
+
+	#nav .hide a{
+		display: none;
+	}
+
+	.dropdown .dropdown-button {
+		display: block;
+		padding-right: 1em;
+	}
+
+	.dropdown {
+		display: block;
+	}
+	
+	#nav .dropdown-content {  
+		position: absolute;
+		right: 1em;
+		padding-top: 1em;
+		background-color: #161a1a;
+		list-style: none;
+	}
 }
 
 
-
-}
