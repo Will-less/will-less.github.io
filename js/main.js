@@ -2,6 +2,7 @@ const projects = document.getElementById('project-grid');
 const textBody = document.querySelector('.main-text-box');
 bWidth = textBody.clientWidth;
 
+//properly resizes images for future additions
 if(projects) {
 	colNum = getComputedStyle(projects).
 			getPropertyValue("grid-template-columns")?.split(' ').length;
@@ -13,3 +14,13 @@ if(projects) {
 
 	});
 }
+
+//button for mobile support 
+const dropdownButton = document.querySelector('.dropdown-button');
+const dropdownContent = document.querySelector('.dropdown-content');
+
+dropdownButton.addEventListener('click', (e) => {
+	e.target.innerHTML = e.target.innerHTML=='O' ? 'X' : 'O';
+	dropdownContent.classList.toggle('show');
+});
+
