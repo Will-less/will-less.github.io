@@ -186,4 +186,14 @@ p {
 		text-align: left;
 	}
 
+	#posts {
+		width: auto;
+		max-width: 600px;
+		display: flex;
+		flex-flow: column wrap;
+	}
+}
+
+
+
 }
